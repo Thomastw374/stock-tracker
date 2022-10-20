@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 1.8rem;
+    .header__title{
+        font-family: Jaldi;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}

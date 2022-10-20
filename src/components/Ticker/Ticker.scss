@@ -1,0 +1,11 @@
+.ticker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    color: white;
+    border-radius: 6px;
+    *{
+        margin: 0.5rem;
+    }
+}
