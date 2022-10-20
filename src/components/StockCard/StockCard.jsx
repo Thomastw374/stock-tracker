@@ -1,6 +1,6 @@
 import "./StockCard.scss"
 
-const StockCard = ({label, stat}) => {
+const StockCard = ({label, stat, classModifier}) => {
     return(
         <div className="ticker">
             <h2 className="ticker__title">{label}</h2>
