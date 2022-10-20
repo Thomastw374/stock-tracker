@@ -1,6 +1,8 @@
 import "./StocksPage.scss"
 import CarouselContainer from "../../components/CarouselContainer/CarouselContainer";
 import HeaderContainer from "../../components/HeaderContainer/HeaderContainer";
+import Graph from "../../components/Graph/Graph";
+import StatsContainer from "../../components/StatsContainer/StatsContainer";
 
 
 
@@ -24,6 +26,10 @@ const StocksPage = () => {
         <div className="stocks-page">
             <HeaderContainer/>
             <CarouselContainer/>
+            <div className="stocks-page__main">
+              <Graph/>
+              <StatsContainer/>
+            </div>
         </div>
     )
 }
