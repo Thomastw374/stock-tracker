@@ -1,10 +1,11 @@
+import Search from "../Search/Search";
 import "./HeaderContainer.scss"
 
-const HeaderContainer = () => {
+const HeaderContainer = ({handleSearchInput}) => {
     return(
         <div className="header">
             <h1 className="header__title">TICKR</h1>
-            <p>SEARCH HERE</p>
+            <Search handleSearchInput={handleSearchInput}/>
         </div>
     )
 }
